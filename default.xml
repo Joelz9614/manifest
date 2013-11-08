@@ -17,7 +17,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Joelz9614/android_build" groups="pdk" remote="github" revision="4.4_r1" >
+  <project path="build" name="GWe/android_build" groups="pdk" remote="github" revision="kk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -250,8 +250,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="Joelz9614/android_frameworks_base_av" groups="pdk" remote="github" revision="4.4_r1" />
-  <project path="frameworks/base" name="Joelz9614/android_frameworks_base" remote="github" revision="4.4_r1" />
+  <project path="frameworks/av" name="GWe/android_frameworks_base_av" groups="pdk" remote="github" revision="kk_2.7_rb1.9" />
+  <project path="frameworks/base" name="GWe/android_frameworks_base" remote="github" revision="kk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -280,17 +280,17 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="Joelz9614/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="4.4_r1" />
+  <project path="hardware/broadcom/libbt" name="GWe/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="kk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="Joelz9614/android_hardware_libhardware" groups="pdk" remote="github" revision="4.4_r1" />
-  <project path="hardware/libhardware_legacy" name="Joelz9614/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="4.4_r1" />
-  <project path="hardware/qcom/audio-caf" name="Joelz9614/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="4.4_r1" />
+  <project path="hardware/libhardware" name="GWe/android_hardware_libhardware" groups="pdk" remote="github" revision="kk" />
+  <project path="hardware/libhardware_legacy" name="GWe/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="kk" />
+  <project path="hardware/qcom/audio-caf" name="GWe/android_hardware_qcom_audio-caf" groups="qcom" remote="github" revision="kk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="Joelz9614/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="4.4_r1" />
-  <project path="hardware/qcom/keymaster" name="Joelz9614/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="4.4_r1" />
-  <project path="hardware/qcom/media" name="Joelz9614/android_hardware_qcom_media" groups="qcom" remote="github" revision="4.4_r1" />
+  <project path="hardware/qcom/display-caf" name="GWe/android_hardware_qcom_display-caf" groups="qcom" remote="github" revision="kk" />
+  <project path="hardware/qcom/keymaster" name="GWe/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="kk" />
+  <project path="hardware/qcom/media" name="GWe/android_hardware_qcom_media" groups="qcom" remote="github" revision="kk" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
@@ -422,7 +422,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="Joelz9614/android_system_core" groups="pdk" remote="github" revision="4.4_r1" />
+  <project path="system/core" name="GWe/android_system_core" groups="pdk" remote="github" revision="kk_2.7_rb1.9" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
