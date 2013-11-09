@@ -17,7 +17,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="GWe/android_build" groups="pdk" remote="github" revision="kk" >
+  <project path="build" name="Joelz9614/android_build" groups="pdk" remote="github" revision="kk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -39,7 +39,8 @@
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/dlx" name="Joelz9614/android_device_htc_dlx" remote="github" revision="4.4_r1" />
+  <project path="device/htc/dlx" name="Joelz9614/android_device_htc_dlx" remote="github" revision="kk" />
+  <project path="device/htc/msm8960-common" name="GWe/android_device_htc_msm8960-common" remote="github" revision="kk" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -440,4 +441,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
+  <project path="vendor/gwe" name="GWe/android_vendor_gwe" groups="GWE"  remote="gwe" revision="kk" />
 </manifest>
